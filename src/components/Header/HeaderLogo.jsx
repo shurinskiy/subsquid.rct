@@ -1,5 +1,5 @@
 import style from './Header.module.scss';
-import logo from '../../assets/images/logo.png'
+import logo from '/logo.png'
 
 const HeaderLogo = ({mobile, ...props}) => {
 	const mod = mobile ? style.header__logo_mobile : '';

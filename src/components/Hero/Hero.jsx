@@ -4,7 +4,7 @@ import { useEffect, useRef } from 'react';
 import style from './Hero.module.scss';
 import './Timer.scss';
 
-import rocket from '../../assets/images/icons/icon-rocket.png'
+import rocket from '/icons/icon-rocket.png'
 
 const Hero = () => {
 	const refTimer = useRef();
@@ -14,7 +14,7 @@ const Hero = () => {
 				digitWrapper: true,
 				date: 'Apr 9, 2024 12:00:00'
 			});
-	}, []);
+	}, [refTimer]);
 
 	return (
 		<section className={`${style.hero} container`}>

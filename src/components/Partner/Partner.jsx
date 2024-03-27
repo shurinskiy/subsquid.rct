@@ -1,12 +1,12 @@
 import style from './Partner.module.scss';
 
-import berachain from '../../assets/images/partners/partner-berachain.png'
-import coinlist from '../../assets/images/partners/partner-coinlist.png'
-import binance from '../../assets/images/partners/partner-binance.png'
-import quadro from '../../assets/images/partners/partner-quadro.png'
-import manta from '../../assets/images/partners/partner-manta.png'
-import monad from '../../assets/images/partners/partner-monad.png'
-import okx from '../../assets/images/partners/partner-okx.png'
+import berachain from '/partners/partner-berachain.png'
+import coinlist from '/partners/partner-coinlist.png'
+import binance from '/partners/partner-binance.png'
+import quadro from '/partners/partner-quadro.png'
+import manta from '/partners/partner-manta.png'
+import monad from '/partners/partner-monad.png'
+import okx from '/partners/partner-okx.png'
 
 const Partner = () => {
 	return (

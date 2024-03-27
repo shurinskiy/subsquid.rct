@@ -3,11 +3,11 @@ import scrollLock from 'scroll-lock';
 import {useOutsideClick} from '../../hooks/useOutsideClick';
 
 import style from './Header.module.scss';
-import twitter from '../../assets/images/social/twitter.svg'
-import discord from '../../assets/images/social/discord.svg'
-import telegram from '../../assets/images/social/telegram.svg'
-import menu from '../../assets/images/icons/icon-menu.svg'
-import close from '../../assets/images/icons/icon-close.svg'
+import twitter from '/social/twitter.svg'
+import discord from '/social/discord.svg'
+import telegram from '/social/telegram.svg'
+import menu from '/icons/icon-menu.svg'
+import close from '/icons/icon-close.svg'
 
 import HeaderLogo from './HeaderLogo';
 

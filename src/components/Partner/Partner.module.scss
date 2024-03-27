@@ -1,0 +1,49 @@
+@import '../../assets/scss/additional.scss';
+
+.partner {
+	margin-bottom: 80px;
+
+	&__title {
+		text-align: center;
+		font-size: 32px;
+		font-weight: 700;
+		background: linear-gradient(90deg, #2B2B2B 20%, #656565 50%, #2B2B2B 80%);
+		background-clip: text;
+		-webkit-text-fill-color: transparent;
+		text-fill-color: transparent;
+		margin-bottom: 70px;
+		
+		@include media('<=xs') {
+			margin-bottom: 50px;
+			font-size: 28px;
+		}
+		
+		@include media('<=xxs') {
+			margin-bottom: 20px;
+			font-size: 18px;
+		}
+	}
+
+	&__items {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+
+		a {
+			text-decoration: none;
+			color: inherit;
+			margin: 0 20px 20px;
+			
+			@include media('<=xxs') {
+				margin: 0 14px 20px;
+			}
+
+			img {
+				
+				@include media('<=xxs') {
+					max-height: 27px;
+				}
+			}
+		}
+	}
+}

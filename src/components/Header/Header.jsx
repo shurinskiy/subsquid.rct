@@ -23,7 +23,7 @@ const Header = () => {
 
 
 	return (
-		<div ref={menuRef} className={`${style.header} container`}>
+		<header ref={menuRef} className={`${style.header} container`}>
 			<HeaderLogo/>
 			<div className={`${style.header__menu} ${openedClass}`}>
 				<button className={style.header__close} onClick={() => setOpen(false)}>
@@ -40,7 +40,7 @@ const Header = () => {
 			<button className={style.header__open} onClick={() => setOpen(true)}>
 				<img src={menu} alt="Menu open"/>
 			</button>
-		</div>
+		</header>
 	);
 }
  

@@ -3,7 +3,7 @@ import logo from '/logo.png'
 
 const Footer = () => {
 	return (
-		<div className={style.footer}>
+		<footer className={style.footer}>
 			<div className={`${style.footer__top} container`}>
 				<div className={style.footer__note}>
 					<span>You will be able to see your points balance on</span>
@@ -19,7 +19,7 @@ const Footer = () => {
 					<div className={style.footer__copy}>&copy; 2024 subsquidpoints.io</div>
 				</div>
 			</div>
-		</div>
+		</footer>
 	);
 }
  
